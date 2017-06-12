@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  emvc.sample:
+    image: emvc.sample
+    build:
+      context: ./Emvc.Sample
+      dockerfile: Dockerfile

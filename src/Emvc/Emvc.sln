@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emvc.Sample", "samples\Emvc.Sample\Emvc.Sample.csproj", "{843DBC69-0DE7-40ED-9E31-D3B3C57198A0}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "samples\docker-compose.dcproj", "{E48ACE6B-D286-454A-AA93-476526451732}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{848C4DF7-DEB4-4D43-9451-D79BCD4453A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emvc", "src\Emvc\Emvc.csproj", "{408ABDF2-59C0-43D4-B628-59B5C7ABC74A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F159135-A2CC-4961-AB98-69B2A13F20DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4E46C1B9-D8B2-4D19-8D74-A36334AEE818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emvc.Tests", "test\Emvc.Tests\Emvc.Tests.csproj", "{08A592C2-4A7D-4E02-98AA-A2BEF128CA68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{843DBC69-0DE7-40ED-9E31-D3B3C57198A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843DBC69-0DE7-40ED-9E31-D3B3C57198A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843DBC69-0DE7-40ED-9E31-D3B3C57198A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843DBC69-0DE7-40ED-9E31-D3B3C57198A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48ACE6B-D286-454A-AA93-476526451732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48ACE6B-D286-454A-AA93-476526451732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48ACE6B-D286-454A-AA93-476526451732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48ACE6B-D286-454A-AA93-476526451732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408ABDF2-59C0-43D4-B628-59B5C7ABC74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408ABDF2-59C0-43D4-B628-59B5C7ABC74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408ABDF2-59C0-43D4-B628-59B5C7ABC74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408ABDF2-59C0-43D4-B628-59B5C7ABC74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08A592C2-4A7D-4E02-98AA-A2BEF128CA68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A592C2-4A7D-4E02-98AA-A2BEF128CA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A592C2-4A7D-4E02-98AA-A2BEF128CA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A592C2-4A7D-4E02-98AA-A2BEF128CA68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{843DBC69-0DE7-40ED-9E31-D3B3C57198A0} = {848C4DF7-DEB4-4D43-9451-D79BCD4453A5}
+		{E48ACE6B-D286-454A-AA93-476526451732} = {848C4DF7-DEB4-4D43-9451-D79BCD4453A5}
+		{408ABDF2-59C0-43D4-B628-59B5C7ABC74A} = {1F159135-A2CC-4961-AB98-69B2A13F20DE}
+		{08A592C2-4A7D-4E02-98AA-A2BEF128CA68} = {4E46C1B9-D8B2-4D19-8D74-A36334AEE818}
+	EndGlobalSection
+EndGlobal
